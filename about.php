@@ -25,6 +25,9 @@
 	.card img:hover{
 		transform: scale(0.9);
 	}
+	.cookie a{
+		margin-top: 2%;
+	}
 </style>
 <?php
 include 'includes/header.php'
@@ -65,6 +68,8 @@ include 'includes/header.php'
 		echo "<br>Session is available and you are logged in as :".$_SESSION['userid'];
 	}
 ?>
+<br>
+<a href="addblog.php" class="btn btn-danger">Add a Blog</a>
 </div>
 </div>
 </div>
